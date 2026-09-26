@@ -1,4 +1,5 @@
 # Calculadora de Consumo Elétrico Inteligente
+# Marcello Reis de Campos Melo
 
 print(" Calculadora de Consumo Elétrico ")
 
@@ -13,8 +14,11 @@ custo_estimado = (consumo_mensal * 0.75)
 
 # Saída
 print("\n===== RESULTADO =====")
-print(f"Aparelho: {aparelho}")
+print(f"Aparelho: {aparelho}") 
+print("\N{grinning face}")
 print(f"Potência: {potencia:.0f} W")
 print(f"Uso diário: {horas_dia:.1f} horas")
 print(f"Consumo mensal estimado: {consumo_mensal:.2f} kWh")
+print("⚡")
 print(f"Custo estimado R$: {custo_estimado:.2f}")
+print("💲")
